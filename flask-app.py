@@ -1,6 +1,3 @@
-# **1. Flask Dummy Backend (app.py)**
-
-# ```python
 from flask import Flask, jsonify
 import time
 import os
@@ -52,10 +49,3 @@ def format():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=PORT, debug=False) #changed to false
-# ```
-
-# * This Flask app has two endpoints:
-#     * `/health`: Returns a 200 OK status, the port it's running on, and the hostname.
-#     * `/data`: Returns a JSON response with a message, the port, and the hostname, and also has a 100ms delay.
-# * It uses an environment variable `PORT` to determine the port it runs on, defaulting to 5000. This is important for running multiple instances.
-# * The `socket` module is used to get the hostname of the machine.
