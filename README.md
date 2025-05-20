@@ -1,4 +1,4 @@
-# Load Testing Environment Setup
+# Load Testing Environment Setup For API-Gateway
 
 This document outlines the steps to set up and run a load test using Locust, an API gateway (Flask), and dummy backend servers (Flask).
 
