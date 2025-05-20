@@ -1,6 +1,3 @@
-# **3. Locust Load Tester (locustfile.py)**
-
-# ```python
 from locust import HttpUser, task, between
 
 class MyUser(HttpUser):
